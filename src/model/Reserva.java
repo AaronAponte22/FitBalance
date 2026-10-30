@@ -1,4 +1,4 @@
-package com.fitbalance.model;
+package com.FitBalance.model;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -13,11 +13,10 @@ public class Reserva {
     private String metodoPago;
     private double monto;
 
-    // Constructor vacío
+
     public Reserva() {}
 
-    // Constructor con parámetros
-    public Reserva(int idUsuario, int idServicio, LocalDate fecha, LocalTime hora, 
+¿    public Reserva(int idUsuario, int idServicio, LocalDate fecha, LocalTime hora, 
                    String estado, String metodoPago, double monto) {
         this.idUsuario = idUsuario;
         this.idServicio = idServicio;
@@ -106,3 +105,5 @@ public class Reserva {
                 '}';
     }
 }
+
+//nuevo ingreso
